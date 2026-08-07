@@ -1,177 +1,172 @@
-# Food-and-Beverage-Sales-Dashboard-PowerBI
-My GitHub profile and portfolio
-# Food and Beverage Sales Dashboard | Power BI
+# 🍽️ Food & Beverage Sales Performance Dashboard
 
-![Dashboard Preview](Dashboard.png)
+## 📌 Project Overview
 
-## Project Overview
+This project presents an interactive **Food & Beverage Sales Performance Dashboard** developed using **Microsoft Power BI** to analyze business performance across products, sales channels, sales representatives, and time periods.
 
-This project presents an interactive Power BI dashboard developed to analyze the sales performance of a food and beverage business. The dashboard transforms raw transactional data into meaningful business insights, enabling stakeholders to monitor key performance indicators, identify revenue drivers, evaluate sales channels, and support strategic decision-making.
-
-Designed with executives and business managers in mind, the dashboard provides an at-a-glance view of overall business performance while allowing users to drill down into specific areas using interactive filters.
+The dashboard transforms raw sales data into meaningful business insights that support data-driven decision-making. It enables stakeholders to monitor key performance indicators, identify revenue trends, evaluate sales performance, and uncover opportunities to improve profitability.
 
 ---
 
-## Business Problem
+## 🎯 Business Objectives
 
-Business leaders require timely and accurate insights to answer critical questions such as:
+This dashboard was developed to answer the following business questions:
 
-- Which products generate the highest revenue?
-- Which sales channels perform best?
-- How does revenue change over time?
-- Which salespeople contribute the most to revenue?
-- Which quarter delivered the strongest performance?
-- What percentage of revenue comes from Food versus Drink products?
-
-Without a centralized dashboard, answering these questions requires manual reporting, making decision-making slower and less efficient.
-
----
-
-## Project Objectives
-
-The dashboard was developed to:
-
-- Monitor overall business performance using key KPIs.
-- Track revenue trends across months and quarters.
-- Evaluate product and product category performance.
-- Compare revenue across different sales channels.
-- Measure salesperson performance.
-- Support data-driven strategic decisions through interactive visualizations.
+- Which product groups generate the highest revenue?
+- Which product category contributes the most to overall sales?
+- How does revenue perform monthly and quarterly?
+- Which sales representative generated the highest revenue?
+- Which sales channel performs best?
+- What is the Average Order Value (AOV)?
+- What business opportunities can be identified from the sales data?
 
 ---
 
-## Dashboard Features
+# 📊 Dashboard Preview
 
-### Executive KPIs
+![Food & Beverage Sales Performance Dashboard](Food%20%26%20Beverage%20Sales%20Performance%20Dashboard.png)
 
-- Total Revenue
-- Total Orders
-- Average Ticket Price
+---
 
-### Interactive Filters
+# 📈 Key Performance Indicators (KPIs)
 
-Users can filter the dashboard by:
+| KPI | Value |
+|------|-------|
+| Total Revenue | **17.91M** |
+| Total Orders | **53K** |
+| Average Order Value (AOV) | **340.73** |
 
-- Year
-- Product Category
-- Sales Channel
+---
 
-### Visualizations
+# 📊 Dashboard Features
 
-The dashboard includes:
+The dashboard includes interactive analysis through:
 
 - Revenue by Product Group
+- Revenue by Product Category
 - Monthly Revenue Trend
 - Quarterly Revenue Analysis
-- Revenue by Salesperson
-- Revenue by Product Category
-- Revenue by Sales Channel
-- Product Category Distribution
+- Sales Representative Performance
+- Sales Channel Performance
+- Revenue Distribution
+- Interactive Filters (Year, Product Category and Sales Channel)
 
 ---
 
-## Key Business Insights
-
-### Revenue Performance
-
-- The business generated **17.91 Million** in total revenue from **53,000 orders**.
-- The average customer ticket value was **340.73**.
-
-### Product Performance
-
-- Wheat Flour generated the highest revenue among all products.
-- Food products contributed over **90%** of total revenue, while Drink products represented less than **10%**.
-
-### Sales Trend
-
-- Revenue steadily increased during the second half of the year.
-- October and November recorded the strongest monthly sales performance.
-
-### Quarterly Performance
-
-- Q4 achieved the highest revenue, making it the best-performing quarter.
-- Q1 recorded the lowest revenue, indicating potential opportunities for seasonal promotions.
-
-### Salesperson Performance
-
-- Carla Ferreira delivered the highest sales revenue among all sales representatives.
-- Performance differences between salespeople highlight opportunities for coaching and knowledge sharing.
-
-### Sales Channel Performance
-
-- Retail generated the largest share of total revenue.
-- Distributor followed closely, while Online contributed the smallest portion, suggesting room for digital sales growth.
-
----
-
-## Business Recommendations
-
-Based on the analysis, the following actions are recommended:
-
-- Increase inventory and marketing investment for high-performing products such as Wheat Flour.
-- Develop promotional strategies during Q1 to improve sales during slower periods.
-- Expand investment in the Retail channel while implementing initiatives to grow Online sales.
-- Replicate the sales strategies used by top-performing sales representatives across the wider sales team.
-- Continue monitoring monthly performance using the dashboard to identify trends early and support proactive decision-making.
-
----
-
-## Tools & Technologies
+# 🛠 Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX
 - Data Modeling
+- Interactive Slicers
+- Business Intelligence Reporting
 - Data Visualization
 
 ---
 
-## Skills Demonstrated
+# 🧹 Data Cleaning & Transformation
+
+The dataset was transformed using Power Query by:
+
+- Removing duplicate records
+- Correcting data types
+- Cleaning inconsistent values
+- Standardizing product and channel names
+- Preparing the data model for analysis
+- Creating relationships for reporting
+
+---
+
+# 📐 DAX Measures Created
+
+The following measures were created to support the analysis:
+
+- Total Revenue
+- Total Orders
+- Average Order Value (AOV)
+- Revenue by Product Category
+- Revenue by Sales Channel
+- Monthly Revenue
+- Quarterly Revenue
+- Revenue by Sales Representative
+
+---
+
+# 🔍 Key Findings
+
+- The business generated **17.91 million** in total revenue from **53,000** completed orders.
+- The **Food** category contributed approximately **91%** of total revenue, significantly outperforming the Drink category.
+- **Wheat Flour** generated the highest revenue among all product groups.
+- Revenue increased steadily throughout the year and reached its highest level in **Quarter 4**.
+- **Retail** and **Distributor** channels generated more revenue than the Online channel.
+- **Carla Ferreira** was the highest-performing sales representative based on revenue generated.
+- The Average Order Value (AOV) was **340.73**, demonstrating strong customer spending per transaction.
+
+---
+
+# 💡 Business Insights
+
+- The business relies heavily on Food products as its primary revenue source, presenting an opportunity to diversify the product portfolio.
+- Strong Quarter 4 performance indicates seasonal demand plays an important role in overall sales.
+- The Drink category has significant growth potential through targeted promotions and marketing campaigns.
+- Retail and Distributor channels remain the strongest revenue drivers, while the Online channel offers opportunities for expansion.
+- Differences in salesperson performance highlight opportunities for coaching and knowledge sharing.
+
+---
+
+# 🎯 Business Recommendations
+
+Based on the analysis, the following recommendations are proposed:
+
+- Increase inventory levels for top-performing products during peak demand periods.
+- Expand promotional campaigns to improve Drink category sales.
+- Invest in digital marketing initiatives to strengthen Online sales.
+- Replicate the strategies of high-performing sales representatives across the sales team.
+- Monitor KPIs regularly using Power BI dashboards to support data-driven decision-making.
+- Introduce cross-selling and upselling strategies to increase Average Order Value (AOV).
+
+---
+
+# 💼 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Calculations
-- Interactive Dashboard Design
-- Business Intelligence Reporting
+- DAX
 - KPI Development
+- Interactive Dashboard Design
+- Sales Performance Analysis
+- Revenue Analysis
+- Trend Analysis
+- Business Intelligence
+- Data Visualization
+- Business Insights
+- Business Recommendations
 - Data Storytelling
 
 ---
 
-## Repository Contents
+# 📂 Repository Contents
 
-```
-📂 Food-and-Beverage-Sales-Dashboard-PowerBI
-│
-├── Dashboard.pbix
-├── Dashboard.png
-├── Dataset.xlsx
-├── README.md
-└── Insights_and_Recommendations.pdf
-```
+- Power BI Dashboard (.pbix)
+- Dashboard Screenshot (.png)
+- Dataset (.xlsx)
+- Project Documentation
+- README.md
 
 ---
 
-## Dashboard Preview
-
-*(Insert your dashboard screenshot here.)*
-
----
-
-## Author
+# 👤 Author
 
 **Ogunleye Odunayo G.**
 
-Healthcare Data Analyst | Registered Nurse
+**Data Analyst | Healthcare Analytics | Excel | Power BI | SQL | Tableau**
 
-### Skills
+📧 Email: *(lydiatemmy@gmail.com)*
 
-Excel • Power BI • SQL • Tableau
+🔗 GitHub: https://github.com/odunayoanalytics
 
 ---
 
-## Connect With Me
-
-- LinkedIn: *(Add your LinkedIn profile once available.)*
-- GitHub: https://github.com/lydiatemmy-bit
+## ⭐ If you found this project helpful, please consider giving it a star.
